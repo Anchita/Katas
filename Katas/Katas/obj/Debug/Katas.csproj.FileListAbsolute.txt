@@ -1,0 +1,10 @@
+C:\GIT\Katas\Katas\Katas\bin\Debug\Katas.dll
+C:\GIT\Katas\Katas\Katas\bin\Debug\Katas.pdb
+C:\GIT\Katas\Katas\Katas\bin\Debug\nunit.framework.dll
+C:\GIT\Katas\Katas\Katas\bin\Debug\nunit.framework.pdb
+C:\GIT\Katas\Katas\Katas\bin\Debug\nunit.framework.xml
+C:\GIT\Katas\Katas\Katas\obj\Debug\Katas.csprojAssemblyReference.cache
+C:\GIT\Katas\Katas\Katas\obj\Debug\Katas.csproj.CoreCompileInputs.cache
+C:\GIT\Katas\Katas\Katas\obj\Debug\Katas.csproj.CopyComplete
+C:\GIT\Katas\Katas\Katas\obj\Debug\Katas.dll
+C:\GIT\Katas\Katas\Katas\obj\Debug\Katas.pdb
