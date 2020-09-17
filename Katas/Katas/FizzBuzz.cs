@@ -23,25 +23,41 @@ namespace Katas
     {
         public string Process(int num)
         {
-            string str = num.ToString();
-
-            if (num % 5 == 0 && num % 3 == 0)
+            if (IsDivisibleBy3(num) && IsDivisibleBy5(num))
             {
-                str = "FizzBuzz";
+                return "FizzBuzz";
             }
             else
             {
-                if (num % 3 == 0)
+                if (IsDivisibleBy3(num))
                 {
-                    str = "Fizz";
+                    return "Fizz";
                 }
-                else if (num % 5 == 0)
+                else if (IsDivisibleBy5(num))
                 {
-                    str = "Buzz";
+                    return "Buzz";
                 }
             }
+            return num.ToString();
 
-            return str;
+        }
+
+        public bool IsDivisibleBy3(int num)
+        {
+            if (num % 3 == 0)
+            {
+                return true;
+            }
+            return false;
+        }
+
+        public bool IsDivisibleBy5(int num)
+        {
+            if (num % 5 == 0)
+            {
+                return true;
+            }
+            return false;
         }
     }
 }
